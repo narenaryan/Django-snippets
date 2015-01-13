@@ -6,3 +6,10 @@ for row in MyModel.objects.all():
         row.delete()
         
 #Snippet 2
+#For getting the values out of a many-to-many-field in Django
+
+model.entity.get_queryset()
+
+#For adding the values
+
+model.entity.add(value)
